@@ -1,8 +1,42 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
 section{
     display: flex;
-    
+    padding: 40px;
+
 }
 #img-1{
     background-image: url(images/shapes/Group\ 8450.png);
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
+    
+    
+}
+.half-width1{
+    width: 60%;
+    padding: 50px;
+}
+.text-color{
+    color: orange;
+}
+.button1{
+text-decoration: none;
+background-image: linear-gradient(orange,tomato);
+padding: 15px 30px;
+color: white;
+font-weight: 600;
+border-radius: 30px;
+box-shadow: 5px 5px 20px orange ;
+}
+h1{
+    font-size: 65px;
+    color: gray;
+}
+p{
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+#img-2{
+    margin: 0%;
 }
