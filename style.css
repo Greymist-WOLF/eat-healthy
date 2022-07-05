@@ -4,18 +4,21 @@ body{
 }
 section{
     display: flex;
-    padding: 40px;
+    padding-bottom: 20px;
 
 }
 #img-1{
     background-image: url(images/shapes/Group\ 8450.png);
     background-repeat:no-repeat;
+  
+    background-size: 110%;
+    width: 50%;
     
     
 }
 .half-width1{
-    width: 60%;
-    padding: 50px;
+    width: 50%;
+    padding: 90px;
 }
 .text-color{
     color: orange;
@@ -27,7 +30,10 @@ padding: 15px 30px;
 color: white;
 font-weight: 600;
 border-radius: 30px;
-box-shadow: 5px 5px 20px orange ;
+box-shadow: 10px 10px 20px orange ;
+}
+#pad{
+    padding-bottom: 40px;
 }
 h1{
     font-size: 65px;
@@ -38,5 +44,13 @@ p{
     font-size: 20px;
 }
 #img-2{
-    margin: 0%;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    margin:0px;
+    padding-left: 0%;
+    width: 100%;
+
+}
+#img-21{
+    width: 50%;
 }
